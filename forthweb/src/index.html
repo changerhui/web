@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gulp实战</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/min.css">
+</head>
+
+<body>
+<!-- =include header.html -->
+<h1>gulp练习</h1>
+<div class="center">
+    <h2>页面内容</h2>
+    <pre>
+        <img src="images/bubble1.png"/>
+    </pre>
+</div>
+<img src="images/bubble2.png"/>
+<!-- build:js js/all.js -->
+<script src="js/mod1.js"></script>
+<script src="js/mod2.js"></script>
+<!-- endbuild -->
+<script src="js/index.js" inline></script>
+</body>
+</html>
